@@ -1,2 +1,2 @@
 # SING-EMAIL-GRABBER
-Grabs all attachments from the inbox, crops, sorts and stores the images.
+Grabs all attachments and inline images from the inbox and sorts and stores the images in a directory.
