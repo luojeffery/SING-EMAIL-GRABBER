@@ -145,6 +145,12 @@ public class ApplicationController {
             emails.createSubDirectories();
             Folder inbox = emails.openFolder(store);
             Message[] messages = emails.openMessages(inbox);
+
+            error.setVisible(false);
+            error1.setVisible(false);
+            error2.setVisible(false);
+            error3.setVisible(false);
+
             for (int i = 0; i < messages.length; i++) {
                 String fromAddress = emails.getFromAddress(messages[i]);
                 String emailsubject = emails.getSubject(messages[i]);
