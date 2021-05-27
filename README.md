@@ -1,7 +1,7 @@
 # SING EMAIL GRABBER
 Grabs all attachments and inline images from the inbox and sorts and stores the images in a directory.  
   
-This project was made with JDK 15 and JavaFX 11.  
+This project was made with JDK 15, JavaFX 11, and SceneBuilder.  
   
 Dependencies:
 - JavaMail 1.6.2  
