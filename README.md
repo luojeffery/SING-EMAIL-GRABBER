@@ -2,7 +2,8 @@
 Grabs all attachments and inline images from the inbox and sorts and stores the images in a directory.  
   
 This project was made with JDK 15 and JavaFX 11.  
-Dependencies:  
+  
+Dependencies:
 - JavaMail 1.6.2  
 - Java Activation Framework 1.1.1  
 - Apache Commons IO 2.8  
